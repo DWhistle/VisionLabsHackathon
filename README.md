@@ -1,14 +1,5 @@
-# VisionLabsHackathon
+A basic adaptation of PoseNet to work with React.js!
 
-
-
-## Instructions, yopta:
-
-```
-brew install python3
-pip3 install jupyter pandas numpy
-```
-**Adding to Git Large File Storage list**:
-```
-git lfs track "*.ext"
-```
+Basic scripts to get up and running:
+- npm install
+- npm run start-dev

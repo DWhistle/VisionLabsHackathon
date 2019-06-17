@@ -1,0 +1,36 @@
+.webcam {
+  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 6px;
+}
+
+#app {
+  width: 100%;
+  height: 100%;
+}
+
+#videoNoShow {
+  transform: scaleX(-1);
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  display: none !important;
+}
+
+.LeftMenu {
+  height: 100%;
+  font-family: HelveticaBold;
+  width: 15%;
+}
+
+.allPage {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+.RightAllItem {
+  display: flex;
+  width: 85%
+}
