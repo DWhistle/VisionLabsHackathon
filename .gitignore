@@ -1,1 +1,12 @@
-*/*/.DS_Store
+node_modules/
+public/bundle.js
+public/bundle.js.map
+public/images/
+__pycache__/
+*.py[cod]
+.DS_Store
+.env
+.env.*
+!.env.example
+npm-debug.log*
+backend/database.db-journal
