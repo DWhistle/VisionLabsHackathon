@@ -1,6 +1,5 @@
-#!/bin/bash
-npm install
-npm start
-pip install  -r requirements.txt
-node socket/socket.js
-python3 socket/server.py
+#!/bin/sh
+set -eu
+cd "$(dirname "$0")"
+npm ci --omit=optional --legacy-peer-deps
+npm run build-client
